@@ -6,7 +6,9 @@
     background-image: url(../img/mobile-footer-background.png);
     background-repeat: no-repeat;
     background-position: bottom;
-background-size: contain;}
+background-size:375px;
+} 
+
 .footer-link{
     display: flex;
     gap:40px;
@@ -36,7 +38,7 @@ background-size: contain;}
         letter-spacing: -1.32px;
         padding-bottom: 280px;
         padding-top: 20px;
-width: 335px;
+
 }
 .ukrainian{
     color:#ECD979;
@@ -53,11 +55,16 @@ width: 335px;
                                 .backround{
                                     background-image: url(../img/planshet-footer-background.png);
                                     background-position: right;
+                                    background-size: contain;
+                                   
                                 }
                                                                 .footer-text{
                                                                     
                                                                     padding-bottom: 40px;
                                                                     padding-top: 40px;
+
+                                                                    width: 754px;
+
                                                                     width: 521px;
                                                                    
                                                                      
@@ -67,13 +74,16 @@ width: 335px;
                                                                         line-height: 1.18;
                                                                     
                                                                         letter-spacing: -1.62px;
+
                                                                 }
                                
 }
 @media screen and (min-width:1268px){
     .footer-text{
-        padding-top: 58px;
+       padding-top: 58px;
         width: 754px;
+
+
     
      
         font-size: 64px;
@@ -83,10 +93,12 @@ width: 335px;
         letter-spacing: -1.92px;
             
            
+
     }
         .footer-link{padding-bottom: 58px;}
                 .backround {
                     background-image: url(../img/compuctor-footer-background.png);
+                   
                }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
